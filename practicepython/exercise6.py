@@ -3,15 +3,9 @@
 # (A palindrome is a string that reads the same forwards and backwards.)
 
 text = input("Provide a string: ")
-text_len = len(text)
-is_palindrome = True
+reverse = text[::-1]
 
-for i in range(0, text_len):
-    if (text[i] != text[text_len - i - 1]):
-        is_palindrome = False
-        break
-
-if is_palindrome:
+if text == reverse:
     print ("that was a palindrome")
 else:
     print ("that wasn't a palindrome")
