@@ -1,8 +1,8 @@
 # Code sample from the book 'Data Structures and Algorithms in Python'
 
-print('Welcome to the GPA calculator.')
-print('Please enter all your letter grades, one per line.')
-print('Enter a blank line to designate the end.')
+print('''Welcome to the GPA calculator.
+Please enter all your letter grades, one per line.
+Enter a blank line to designate the end.''')
 
 points = { 
     'A+' : 4.0, 
